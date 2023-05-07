@@ -41,7 +41,11 @@ function updateScore(roundWinner) {
     computerScore++;
   }
 
-  results.textContent = `Player Score: ${playerScore} | Computer Score: ${computerScore}`;
+  if (playerScore === computerScore) {
+    results.textContent = `It's a tie! | Player Score: ${playerScore} | Computer Score: ${computerScore}`;
+  } else {
+    results.textContent = `Player Score: ${playerScore} | Computer Score: ${computerScore}`;
+  }
 
   if (playerScore === 5) {
     results.textContent = 'Congratulations, you won the game!' 
