@@ -27,6 +27,50 @@
     return roundWinner;
   }
 
+const btnRock = document.querySelector("#btn-rock");
+const btnPaper = document.querySelector("#btn-paper");
+const btnScissors = document.querySelector("#btn-scissors");
+const results = document.querySelector("#results");
+let playerScore = 0;
+let computerScore = 0;
+
+function updateScore(roundWinner) {
+  if (roundWinner === "player") {
+    playerScore++;
+  } else if (roundWinner === "computer") {
+    computerScore++;
+  }
+
+  results.textContent = `Player Score: ${playerScore} | Computer Score: ${computerScore}`;
+
+  if (playerScore === 5) {
+    results.textContent = 'Congratulations, you won the game!' 
+  } else if (computerScore === 5) {
+    results.textContent = 'Too bad, the Computer has beaten you!'
+  }
+
+}
+
+btnRock.addEventListener("click", () => {
+  const computerSelection = getComputerChoice();
+  const roundWinner = playRound("rock", computerSelection);
+  updateScore(roundWinner);
+});
+
+btnPaper.addEventListener("click", () => {
+  const computerSelection = getComputerChoice();
+  const roundWinner = playRound("paper", computerSelection);
+  updateScore(roundWinner);
+});
+
+btnScissors.addEventListener("click", () => {
+  const computerSelection = getComputerChoice();
+  const roundWinner = playRound("scissors", computerSelection);
+  updateScore(roundWinner);
+});
+
+
+/*
   function game() {
     let playerScore = 0;
     let computerScore = 0;
@@ -61,4 +105,4 @@
   
   game();
   
-
+*/
