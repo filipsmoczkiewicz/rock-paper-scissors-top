@@ -1,34 +1,40 @@
-# rock-paper-scissors-top
-Rock Paper Scissors using Java Script for The Odin Project. 
+# Rock Paper Scissors 
 
-Rock Paper Scissors Game
+Welcome to the Rock Paper Scissors game, a classic and fun way to challenge your wits against the computer. Let's dive into the features and gameplay of this entertaining project.
 
-This is a simple implementation of the classic game Rock, Paper, Scissors, written in JavaScript. This project was created as an exercise for The Odin Project's curriculum.
+## Key Features 
 
-How to Play
+### 1. Game Mechanics 
+This game follows the traditional rules of Rock Paper Scissors: Rock beats Scissors, Scissors beat Paper, and Paper beats Rock.
 
-The rules of the game are simple: each player chooses either rock, paper, or scissors, and the winner is determined based on the following:
+### 2. Player vs. Computer 
+Test your luck and strategy against the computer, which randomly selects its move for each round.
 
-Rock beats scissors
-Scissors beats paper
-Paper beats rock
+### 3. Score Tracking 
+Keep track of your wins and losses with a built-in scoring system. The first player to reach 5 points wins the game.
 
-To play the game, simply open the index.html file in your browser and click on the "Play" button. You will be prompted to enter your choice of rock, paper, or scissors, and the computer will randomly choose its own. The winner will be displayed on the screen.
+### 4. New Game Option 
+Ready to start a fresh round? Click the "New Game" button to reset the scores and try your luck again.
 
-Files Included
+## Getting Started 
+Here's how you can start playing Rock paper Scissors: 
 
-This project includes the following files:
+1. Choose Your Weapon: Click one of the three buttons ("Rock," "Paper," or "Scissors") to make your move.
+2. Face the Computer: The computer will randomly select its move.
+3. Determine the Winner: The game will reveal the round winner and update the scores.
+4. Game Over: The first player to reach 5 points wins the game. Will it be you or the computer?
+5. Start Anew: Want to play again? Click "New Game" to reset the scores and embark on a fresh challenge.
 
-index.html: the HTML file that displays the game
-style.css: the CSS file that styles the game
-script.js: the JavaScript file that implements the game logic
 
-How to Modify
+# Meet the Creator 
+The Rock Paper Scissors for The Odin Project is the creation of <a href="https://github.com/filipsmoczkiewicz">Filip Smoczkiewicz</a>, as one of the entry projects for the course. 
 
-If you want to modify the game, you can do so by editing the script.js file. The game logic is contained in the playRound() function, which takes two arguments (the player's choice and the computer's choice) and returns a string indicating the winner.
+# Source Code
+For those interested in exploring the inner workings of this game, the source code is available on <a href="https://github.com/filipsmoczkiewicz/odin-calculator">GitHub</a>. 
 
-You can also modify the styling of the game by editing the style.css file.
 
-Credits
+# Start Playing! 
+The Rock Paper Scissors game offers a delightful way to test your luck and enjoy a classic pastime. 
+Whether you're in the mood for a quick game or some friendly competition, give it a try. 
+Can you outsmart the computer and claim victory? Let the games begin!
 
-This project was created as an exercise for The Odin Project's curriculum. You can learn more about The Odin Project here.
